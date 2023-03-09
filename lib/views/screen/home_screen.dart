@@ -27,7 +27,7 @@ class _homeScreenState extends State<homeScreen>
   late AnimationController animationController;
   final panelController = PanelController();
   PolylineResponse polylineResponse = PolylineResponse();
-  String apiKey = "AIzaSyBgpdb--7LQhJVO2sJKkyUSfRiZ3arwcik";
+  String apiKey = "";
 
   static const _initialCameraPosition = CameraPosition(
     target: LatLng(12.822930, 80.041131),
