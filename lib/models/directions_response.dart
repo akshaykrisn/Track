@@ -19,7 +19,7 @@ class DirectionsRepository {
       queryParameters: {
         'origin': '${origin.latitude},${origin.longitude}',
         'destination': '${destination.latitude},${destination.longitude}',
-        'key': "AIzaSyBgpdb--7LQhJVO2sJKkyUSfRiZ3arwcik",
+        'key': "",
       },
     );
 
